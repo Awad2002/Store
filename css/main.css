@@ -248,7 +248,7 @@ input[type="checkbox"] {
         width: 100% !important;
         box-shadow: rgb(0 0 0 / 30%) 0px 0rem 1rem !important;
     }
-    nav.navbar .nav-item .nav-link {
-        color: #000;
+    nav.navbar .navbar-nav .nav-item .nav-link {
+        color: #000 !important;
     }
 }
