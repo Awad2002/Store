@@ -244,4 +244,8 @@ input[type="checkbox"] {
     #left-img {
         display: none !important;
     }
+    nav.navbar {
+        width: 100%;
+        box-shadow: rgb(0 0 0 / 30%) 0px 0rem 1rem !important;
+    }
 }
