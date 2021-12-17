@@ -239,9 +239,9 @@ input[type="checkbox"] {
 
 @media (max-width: 500px) {
     #app {
-        display: none;
+        width: 100% !important;
     }
     #left-img {
-        width: 100%;
+        display: none !important;
     }
 }
