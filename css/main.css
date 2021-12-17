@@ -245,7 +245,10 @@ input[type="checkbox"] {
         display: none !important;
     }
     nav.navbar {
-        width: 100%;
+        width: 100% !important;
         box-shadow: rgb(0 0 0 / 30%) 0px 0rem 1rem !important;
+    }
+    nav.navbar .nav-item .nav-link {
+        color: #000;
     }
 }
