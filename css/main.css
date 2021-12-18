@@ -152,7 +152,6 @@ input[type="checkbox"] {
     position: relative;
     display: flex;
     align-items: center;
-    margin-bottom: 32px;
 }
 
 .topbar h5 {
@@ -278,7 +277,11 @@ nav.navbar .navbar-nav .nav-item .nav-link.active {
         font-weight: 500;
     }
     .categorie-item img {
-        height: 174px !important;
+        height: 176px !important;
+    }
+    .product-item img {
+        height: 176px !important;
+        object-fit: cover;
     }
     nav.navbar form.d-flex button.btn.ps-3.text-white.p-2.m-0.fs-6 {
         color: #000000 !important;
@@ -286,5 +289,8 @@ nav.navbar .navbar-nav .nav-item .nav-link.active {
         top: 8px;
         left: 24px;
         display: block !important;
+    }
+    .sizedbox {
+        height: 320px !important;
     }
 }
