@@ -247,6 +247,11 @@ nav.navbar .navbar-nav .nav-item .nav-link.active {
     opacity: 1;
 }
 
+.btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: none;
+}
+
 @media (max-width: 500px) {
     #app {
         width: 100% !important;
@@ -273,7 +278,7 @@ nav.navbar .navbar-nav .nav-item .nav-link.active {
         font-weight: 500;
     }
     .categorie-item img {
-        height: 195px !important;
+        height: 174px !important;
     }
     nav.navbar form.d-flex button.btn.ps-3.text-white.p-2.m-0.fs-6 {
         color: #000000 !important;
