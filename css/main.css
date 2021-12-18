@@ -257,6 +257,9 @@ nav.navbar .navbar-nav .nav-item .nav-link.active {
         width: 100% !important;
         padding-top: 56px !important;
     }
+    #app div:first-child {
+        padding-top: 0 !important;
+    }
     #left-img {
         display: none !important;
     }
