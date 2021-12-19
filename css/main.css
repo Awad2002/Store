@@ -267,6 +267,9 @@ button.btn.btn-outline-dark {
 }
 
 @media (max-width: 500px) {
+    .cart.pt-3.mt-5 {
+        padding-top: 10px !important;
+    }
     .hidden-in-mobile {
         display: none !important;
     }
