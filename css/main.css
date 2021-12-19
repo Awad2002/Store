@@ -18,6 +18,10 @@ a:hover {
     color: #000000;
 }
 
+#left-img {
+    z-index: 10;
+}
+
 #left-img .left-img-back {
     background-image: url('../img/back.jpg');
     background-position: center;
@@ -159,7 +163,7 @@ input[type="checkbox"] {
     padding: 0;
     position: absolute;
     top: 50%;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -251,7 +255,24 @@ nav.navbar .navbar-nav .nav-item .nav-link.active {
     box-shadow: none;
 }
 
+.fixed-top.p-2.px-3.border-bottom.bg-white {
+    display: block;
+    position: fixed;
+    width: 33.5%;
+    z-index: 1;
+}
+
+button.btn.btn-outline-dark {
+    height: auto;
+}
+
 @media (max-width: 500px) {
+    .hidden-in-mobile {
+        display: none !important;
+    }
+    .fixed-top.p-2.px-3.border-bottom.bg-white {
+        width: 100%;
+    }
     #app {
         width: 100% !important;
         padding-top: 56px !important;
@@ -267,7 +288,7 @@ nav.navbar .navbar-nav .nav-item .nav-link.active {
     nav.navbar {
         background: #fff;
         width: 100% !important;
-        box-shadow: rgb(0 0 0 / 20%) 0px 0rem 1rem !important;
+        box-shadow: rgb(0 0 0 / 20%) 0px 0rem 0.6rem !important;
     }
     nav.navbar .navbar-nav .nav-item {
         margin: 0 !important;
