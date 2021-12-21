@@ -83,27 +83,67 @@
                     <h5 class="p-0 m-0"> بيانات التوصيل </h5>
                     <span class="text-muted d-block mt-1" style="font-size: 14px; font-weight: 400;opacity: 0.64;;"> أدخل البيانات المطلوبة منك </span>
                     <div class="mt-3">
-                        <label style="color: #999999; font-size: 14px; font-weight: 600;"> الإسم </label>
-                        <input class="form-control mt-2" type="text" placeholder="أدخل الإسم">
+                        <label style="color: #999999; font-size: 14px; font-weight: 600;"> المقاطعة </label>
+                        <input class="form-control mt-2" type="text" value="العاصمة" disabled>
                     </div>
                     <div class="mt-3">
-                        <label style="color: #999999; font-size: 14px; font-weight: 600;"> الهاتف </label>
-                        <div class="d-flex mt-2">
-                            <input type="text" value="+965" class="form-control" style="width: 14%; font-weight: 600; border-radius: 0px 6px 6px 0;background: #F5F5F5;" disabled>
-                            <input type="text" placeholder="88664488" class="form-control w-100" style="border-radius: 6px 0px 0px 6px;">
+                        <label style="color: #999999; font-size: 14px; font-weight: 600;"> المنطقة </label>
+                        <input class="form-control mt-2" type="text" value="العديلية" disabled>
+                    </div>
+                    <div class="mt-3">
+                        <label style="color: #999999; font-size: 14px; font-weight: 600;"> نوع الوحدة </label>
+                        <div class="d-flex mt-2 property-type">
+                            <label class="labl">
+                                <input type="radio" name="property-type" checked="checked" id="home-option"  />
+                                <div class="py-2 px-3"> <i class="fas fa-home"></i> منزل </div>
+                            </label>
+                            <label class="labl mx-3">
+                                <input type="radio" name="property-type" id="apartment-option" />
+                                <div class="py-2 px-3"> <i class="fas fa-building"></i> شقة </div>
+                            </label>
+                            <label class="labl ms-5">
+                                <input type="radio" name="property-type" id="office-option" />
+                                <div class="py-2 px-3"> <i class="fas fa-briefcase"></i> مكتب </div>
+                            </label>
                         </div>
                     </div>
                     <div class="mt-3">
-                        <label style="color: #999999; font-size: 14px; font-weight: 600;"> الإيميل </label>
-                        <input class="form-control mt-2" type="email" placeholder="أدخل الإيميل">
+                        <label style="color: #999999; font-size: 14px; font-weight: 600;"> القطعة </label>
+                        <input class="form-control mt-2" type="text" placeholder="أدخل القطعة">
+                    </div>
+                    <div class="mt-3">
+                        <label style="color: #999999; font-size: 14px; font-weight: 600;"> الشارع </label>
+                        <input class="form-control mt-2" type="text" placeholder="أدخل الشارع">
+                    </div>
+                    <div class="mt-3 home-inputs">
+                        <label style="color: #999999; font-size: 14px; font-weight: 600;"> رقم المنزل </label>
+                        <input class="form-control mt-2" type="text" placeholder="أدخل رقم المنزل">
+                    </div>
+                    <div class="mt-3 office-inputs apartment-inputs">
+                        <label style="color: #999999; font-size: 14px; font-weight: 600;"> البناية </label>
+                        <input class="form-control mt-2" type="text" placeholder="أدخل رقم البناية">
+                    </div>
+                    <div class="mt-3 office-inputs apartment-inputs">
+                        <label style="color: #999999; font-size: 14px; font-weight: 600;"> الطابق </label>
+                        <input class="form-control mt-2" type="text" placeholder="أدخل الطابق">
+                    </div>
+                    <div class="mt-3 apartment-inputs">
+                        <label style="color: #999999; font-size: 14px; font-weight: 600;"> رقم الشقة </label>
+                        <input class="form-control mt-2" type="text" placeholder="أدخل رقم الشقة">
+                    </div>
+                    <div class="mt-3 office-inputs">
+                        <label style="color: #999999; font-size: 14px; font-weight: 600;"> رقم المكتب </label>
+                        <input class="form-control mt-2" type="text" placeholder="أدخل رقم المكتب">
                     </div>
                 </div>
             </div>
             <!-- End Cart -->
 
+            <p class="w-100 d-block m-0 p-0 mt-2 mb-5 text-center pt-1" style="font-size: 14px;"> أنشأ بواسطة <a href="#" style="font-weight: 500;">000itkw</a> </p>
+
             <!-- Start Order Button -->
             <div class="order-btn position-sticky p-3" style="bottom: 15px;">
-                <button class="w-100 btn btn-dark">
+                <button class="w-100 btn btn-primary">
                     ابدأ الطلب
                 </button>
             </div>
