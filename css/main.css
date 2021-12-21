@@ -10,17 +10,19 @@ body #row {
 }
 
 :root {
-    --main--color: red;
+    --main--color: rgb(32, 32, 32);
     --secondray--color: white;
 }
 
 .btn-primary {
     background: var(--main--color) !important;
     color: var(--secondray--color) !important;
+    border-color: var(--main--color) !important;
 }
 
 .bg-primary {
     background: var(--main--color) !important;
+    border-color: var(--main--color) !important;
     color: var(--secondray--color) !important;
 }
 
@@ -31,6 +33,31 @@ a {
 
 a:hover {
     color: #000000;
+}
+
+#top-in-mobile {
+    height: 240px;
+    display: none;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 55px;
+    background-image: url('../img/back.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#top-in-mobile .logo img {
+    width: 114px;
+    height: 114px;
+}
+
+.sized-top-in-mobile {
+    padding: 120px !important;
+    width: 100% !important;
+    margin-bottom: 10px;
+    display: none;
 }
 
 #left-img {
@@ -375,5 +402,11 @@ button.btn.btn-outline-dark {
     }
     .sizedbox {
         height: 320px !important;
+    }
+    #top-in-mobile {
+        display: block;
+    }
+    .sized-top-in-mobile {
+        display: block;
     }
 }
