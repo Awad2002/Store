@@ -401,7 +401,7 @@ button.btn.btn-outline-dark {
         display: block !important;
     }
     .sizedbox {
-        height: 320px !important;
+        height: 305px !important;
     }
     #top-in-mobile {
         display: block;
@@ -409,5 +409,12 @@ button.btn.btn-outline-dark {
     .sized-top-in-mobile {
         display: block;
         margin-bottom: 0px !important;
+    }
+    .categoriepage.p-3 input[type="search"] {
+        margin-top: 0px !important;
+    }
+    .product-content img {
+        height: 338px !important;
+        margin-top: 20px;
     }
 }
