@@ -11,12 +11,13 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+
 </head>
 
-<body class="d-flex">
+<body class="d-flex show-in-mobile-home-only">
 
 
-    <div class="fixed-top">
+    <div class="fixed-top show-in-mobile-home-only">
         <nav class="navbar navbar-expand-lg navbar-light position-absolute" style="width: 67%; z-index: 99999999; left: 0; top: 0;">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -153,7 +154,9 @@
             <!-- Start Order Button -->
             <div class="order-btn position-sticky" style="bottom: 15px;">
                 <button class="w-100 btn btn-primary">
-                    ابدأ الطلب
+                    <span class="float-start" style="font-weight: 400; width: 70px;"> 7.000 د.ك </span>
+                    <span> راجع الطلب </span>
+                    <span class="float-end" style="font-weight: 400; width: 70px;">  5 طلبات </span>
                 </button>
             </div>
             <!-- End Order Button -->

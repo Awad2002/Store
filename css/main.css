@@ -351,6 +351,10 @@ button.btn.btn-outline-dark {
     margin-top: 50px !important;
 }
 
+.times {
+    margin-top: 62px;
+}
+
 @media (max-width: 500px) {
     .cart.pt-3.mt-5 {
         padding-top: 0 !important;
@@ -358,6 +362,9 @@ button.btn.btn-outline-dark {
     }
     .hidden-in-mobile {
         display: none !important;
+    }
+    .times {
+        margin-top: 0px !important;
     }
     .fixed-top.p-2.px-3.border-bottom.bg-white {
         width: 100%;
@@ -416,5 +423,11 @@ button.btn.btn-outline-dark {
     .product-content img {
         height: 338px !important;
         margin-top: 20px;
+    }
+    .show-in-mobile-home-only {
+        display: none;
+    }
+    #homepage .show-in-mobile-home-only {
+        display: block;
     }
 }
