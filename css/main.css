@@ -431,3 +431,36 @@ button.btn.btn-outline-dark {
         display: block;
     }
 }
+
+.cities {
+    list-style: none;
+    padding: 0 !important;
+}
+
+.cities li {
+    background-color: #fff;
+}
+
+.cities .question {
+    background: #f2f2f2 !important;
+}
+
+.cities li button {
+    border: 1px solid var(--main-color);
+    background: none !important;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    outline: none;
+    display: flex;
+}
+
+.cities li button i {
+    align-self: center;
+}
+
+.cities .city .areas {
+    display: none;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+}

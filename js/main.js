@@ -1,13 +1,12 @@
-$('.city .city-item').click(function() {
-    $(this).parent().find('.area-item').toggle();
-    $(this).find('i').toggleClass('fa-angle-up');
-    $(this).find('i').toggleClass('fa-angle-down');
+$(document).ready(function() {
+    $('.areas').show();
+    $('.city button.question').on('click', function() {
+        $(this).next('.areas').toggle('show');
+        $(this).find('.fas').toggleClass('fa-angle-up');
+        $(this).find('.fas').toggleClass('fa-angle-down');
+    });
 });
 
-$(".area-item").click(function(e) {
-    e.preventDefault();
-    window.location = "time.html";
-});
 
 $(".categorie-item").click(function(e) {
     e.preventDefault();
